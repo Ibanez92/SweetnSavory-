@@ -5,11 +5,11 @@ import logo from "./logo2.png";
 
 const heading = {
   fontSize: "25px",
-  backgroundColor: "#d19fe4",
+  backgroundColor: "white",
   paddingLeft: '364px',
-  paddingTop: '7px',
-  paddingBottom: '7px',
-  fontWeight: 'bold'
+  
+  fontWeight: 'bold',
+  color: "#e986f0"
 };
 
 function Nav() {
@@ -41,11 +41,11 @@ function Nav() {
         <div className="navbar-start">
           <a className="navbar-item" href="/explore"
           style={heading}>
-            Home
+            Menu
           </a>
           <img src={logo} style={{ width: '260px' }} alt="logo"/>
-          <a className="navbar-item" href="/explore">
-            My Story
+          <a className="navbar-item" href="/explore" style={{ color: "#e986f0" }}>
+            Our Story
           </a>
           
         </div>
