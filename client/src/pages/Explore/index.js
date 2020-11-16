@@ -7,6 +7,7 @@ function Explore() {
         <div>
             <Nav />
             <Header />
+            
         </div>
 
     );

@@ -5,18 +5,23 @@ import logo from "./logo2.png";
 
 const heading = {
   fontSize: "25px",
-  backgroundColor: "white",
-  paddingLeft: '364px',
-  
   fontWeight: 'bold',
-  color: "#e986f0"
+  color: "#e986f0",
+  
+ 
+  
 };
 
 function Nav() {
   return (
     <nav
-      style={heading}
-      className="navbar is-transparent "
+      style={{ 
+      paddingLeft: '700px',
+      marginTop: "-8px", 
+      marginBottom: "",
+      backgroundColor: "white",
+    }}
+      className="navbar "
       role="navigation"
       aria-label="main navigation">
         
@@ -43,8 +48,20 @@ function Nav() {
           style={heading}>
             Menu
           </a>
-          <img src={logo} style={{ width: '260px' }} alt="logo"/>
-          <a className="navbar-item" href="/explore" style={{ color: "#e986f0" }}>
+          <img 
+          src={logo} 
+          style={{ 
+            width: '260px'
+           }} 
+          alt="logo"/>
+          <a 
+          className="navbar-item" 
+          href="/explore" 
+          style={{ 
+          color: "#e986f0", 
+          fontSize: "25px",
+          fontWeight: 'bold', }}>
+            
             Our Story
           </a>
           
