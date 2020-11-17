@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css';
 import Cupcakes from "../../components/Header/cupcakes.png"
 import Aboutuslogo from "../../components/Header/aboutusimg.png"
+import Menuimg from "../Header/menuimg.png"
 
 function Header() {
   return (
@@ -27,7 +28,9 @@ function Header() {
    
    Whether you have a birthday, dinner party or a wedding, let us cater to you by creating each and every batch with our cultural essence.</h1>
 
-   <hr style={{ marginTop: "100px", width: '70%', marginLeft: '295px' }}></hr>
+   <hr style={{ marginTop: "120px", width: '70%', marginLeft: '295px' }}></hr>
+
+   <img src={Menuimg} style={{ marginLeft: '858px', marginTop: '-30px', width: '305px', height: '263px', }} alt="logo"/>
 
    <div className="card">
 <div className="card-image">

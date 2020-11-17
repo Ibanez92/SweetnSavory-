@@ -51,7 +51,7 @@ function Nav() {
           fontSize: "25px",
           fontWeight: 'bold',
           }}>
-            Menu
+            Our Story
           </a>
           <img 
           src={logo} 
@@ -67,7 +67,7 @@ function Nav() {
           fontSize: "25px",
           fontWeight: 'bold', }}>
             
-            Our Story
+            Contact Us
           </a>
           
         </div>
