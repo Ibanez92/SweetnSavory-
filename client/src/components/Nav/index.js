@@ -16,16 +16,16 @@ function Nav() {
   return (
     <nav
       style={{ 
-      paddingLeft: '700px',
+      width: '100%', 
       marginTop: "-8px", 
-      marginBottom: "",
       backgroundColor: "white",
+      position: 'fixed'
     }}
       className="navbar "
       role="navigation"
       aria-label="main navigation">
         
-      <div className="navbar-brand ml-2">
+      <div className="navbar">
         
         <a
           
@@ -42,16 +42,21 @@ function Nav() {
         </a>
       </div>
 
-      <div id="navbarBasicExample" className="navbar-menu">
+      <div style={{  paddingLeft: '725px', }} id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
           <a className="navbar-item" href="/explore"
-          style={heading}>
+          style={{
+           
+            color: "#e986f0", 
+          fontSize: "25px",
+          fontWeight: 'bold',
+          }}>
             Menu
           </a>
           <img 
           src={logo} 
           style={{ 
-            width: '260px'
+            width: '200px'
            }} 
           alt="logo"/>
           <a 
