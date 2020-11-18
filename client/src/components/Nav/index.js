@@ -42,16 +42,16 @@ function Nav() {
         </a>
       </div>
 
-      <div style={{  paddingLeft: '725px', }} id="navbarBasicExample" className="navbar-menu">
+      <div style={{  paddingLeft: '740px', }} id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <a className="navbar-item" href="/explore"
+          <a className="navbar-item" href="/"
           style={{
            
             color: "#e986f0", 
           fontSize: "25px",
           fontWeight: 'bold',
           }}>
-            Our Story
+            Home
           </a>
           <img 
           src={logo} 
@@ -61,7 +61,7 @@ function Nav() {
           alt="logo"/>
           <a 
           className="navbar-item" 
-          href="/explore" 
+          href="/contactus" 
           style={{ 
           color: "#e986f0", 
           fontSize: "25px",

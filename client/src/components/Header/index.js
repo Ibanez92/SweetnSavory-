@@ -3,6 +3,7 @@ import './Header.css';
 import Cupcakes from "../../components/Header/cupcakes.png"
 import Aboutuslogo from "../../components/Header/aboutusimg.png"
 import Menuimg from "../Header/menuimg.png"
+import '../Cards/Cards.css'
 
 function Header() {
   return (
@@ -30,9 +31,9 @@ function Header() {
 
    <hr style={{ marginTop: "120px", width: '70%', marginLeft: '295px' }}></hr>
 
-   <img src={Menuimg} style={{ marginLeft: '858px', marginTop: '-30px', width: '305px', height: '263px', }} alt="logo"/>
+   <img src={Menuimg} style={{ marginLeft: '814px', marginTop: '-30px', width: '305px', height: '263px', }} alt="logo"/>
 
-   <div className="card">
+   <div className="card container">
 <div className="card-image">
     
         <img className="image is-500x500" src="http://via.placeholder.com/500x500" alt="Placeholder image" />
@@ -58,10 +59,11 @@ function Header() {
         <a href="#">#css</a> <a href="#">#responsive</a>
         <br></br>
         <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+    
     </div>
 </div>
 </div>
-  
+<br></br>
 	</div>
 
 </div>

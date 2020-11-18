@@ -5,6 +5,7 @@ const app = express();
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const session = require("express-session");
+const { Seeder } = require('mongo-seeding');
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
@@ -22,7 +23,7 @@ app.get("*", function(req, res) {
 // Connect to the Mongo DB
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb+srv://jibanez92:Leo0507@cluster0.bzj5t.mongodb.net/Cluster1?retryWrites=true&w=majority",
+  'mongodb://localhost:27017/cupcakes',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
