@@ -42,7 +42,7 @@ function Nav() {
         </a>
       </div>
 
-      <div style={{  paddingLeft: '740px', }} id="navbarBasicExample" className="navbar-menu">
+      <div style={{  paddingLeft: '750px', }} id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
           <a className="navbar-item" href="/"
           style={{

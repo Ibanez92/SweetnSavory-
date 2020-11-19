@@ -1,0 +1,15 @@
+.hero-container {
+    background-image: url('./backgroundimg2.png'); 
+    height: 100%;
+    
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+    /* object-fit: contain; */
+    
+  } 
