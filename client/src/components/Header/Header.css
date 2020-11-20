@@ -1,10 +1,10 @@
 .hero-container {
-    background-image: url('./backgroundimg2.png'); 
+    /* background-image: url('./backgroundimg2.png'); 
     height: 100%;
     
     top: 0;
     width: 100%;
-    background-size: cover;
+    background-size: cover; */
     /* display: flex;
     flex-direction: column;
     justify-content: center;

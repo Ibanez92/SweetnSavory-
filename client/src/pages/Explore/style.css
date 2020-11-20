@@ -1,0 +1,10 @@
+body, html {
+    height: 100%;
+    background-image: url('./backgroundimg2.png'); 
+    
+    top: 0;
+    height: 140%;
+    width: 100%;
+    background-size: cover;
+
+}
