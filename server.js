@@ -25,8 +25,8 @@ mongoose.connect(
   process.env.MONGODB_URI ||
   'mongodb://localhost:27017/cupcakes',
   {
-    useNewUrlParser: true,
     useUnifiedTopology: true,
+    useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false
   });
