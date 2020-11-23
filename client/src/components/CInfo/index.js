@@ -32,7 +32,7 @@ function ContactInfo() {
 
    
 
-   <img src={Menuimg} style={{ marginLeft: '370px', marginTop: '136px', width: '1125px', height: '165px', }} alt="logo"/>
+   <img src={Menuimg} style={{ marginLeft: '384px', marginTop: '136px', width: '1125px', height: '165px', }} alt="logo"/>
 
   
     

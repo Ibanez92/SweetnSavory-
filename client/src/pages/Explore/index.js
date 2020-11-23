@@ -10,18 +10,18 @@ function Explore() {
   
 
   // Load all cupcakes and store them with setCupcakes
-  useEffect(() => {
-    loadCupcakes()
-  }, [])
+  // useEffect(() => {
+  //   loadCupcakes()
+  // }, [])
 
   // Loads all cupcakes and sets them to cupcakes
-  function loadCupcakes() {
-    API.getCupcakes()
-      .then(res =>
-        setCupcakes(res.data)
-      )
-      .catch(err => console.log(err));
-  };
+  // function loadCupcakes() {
+  //   API.getCupcakes()
+  //     .then(res =>
+  //       setCupcakes(res.data)
+  //     )
+  //     .catch(err => console.log(err));
+  // };
 
   // Deletes a cupcake from the database with a given id, then reloads books from the db
   // function deleteCupcakes(id) {

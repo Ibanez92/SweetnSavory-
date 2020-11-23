@@ -30,7 +30,7 @@ function Nav() {
           fontWeight: "bold",
         }}
       >
-        (973)-842-6599
+        (973)-999-9999
       </a>
 
       <a className="navbar-item" style={{}}>
@@ -38,6 +38,7 @@ function Nav() {
           className="col"
           src={IgLogo}
           style={{ marginRight: "0px" }}
+          href=""
           alt="logo"
         />
       </a>
@@ -58,7 +59,7 @@ function Nav() {
       </div>
 
       <div
-        style={{ paddingLeft: "576px" }}
+        style={{ paddingLeft: "537px" }}
         id="navbarBasicExample"
         className="navbar-menu"
       >
